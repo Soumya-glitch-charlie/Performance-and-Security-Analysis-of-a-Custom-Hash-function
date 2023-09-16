@@ -19,7 +19,7 @@ The whole block is processed in a single clock cycle for each of the 64 cycles o
 
 
 
-![HASH Core Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/2d41d80d-f956-427c-8296-bdeb15bc5c9e)
+![HASH Core Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/67c5088b-2e07-48d0-a92d-fdf0a2e8d3bc)
 
 
 
