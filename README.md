@@ -9,7 +9,12 @@ Here is a simplified diagram of implementing the message schedule datapath, with
 
 
 
+
+
 ![Msg Schedule Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/c4ae5375-1be1-478e-b26a-410c5d34ec4a)
+
+
+
 
 
 
@@ -19,7 +24,12 @@ The whole block is processed in a single clock cycle for each of the 64 cycles o
 
 
 
+
+
 ![HASH Core Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/67c5088b-2e07-48d0-a92d-fdf0a2e8d3bc)
+
+
+
 
 
 
