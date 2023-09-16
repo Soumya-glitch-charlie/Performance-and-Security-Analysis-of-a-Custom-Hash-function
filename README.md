@@ -8,7 +8,9 @@ The message schedule can be implemented as a compact 16-word circular buffer, th
 Here is a simplified diagram of implementing the message schedule datapath, with the circular buffer (r0 ... r15) and the combinational functions (σ0, σ1).
 
 
-![Msg Schedule Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/d2f6ebcf-730e-450f-86da-2bff104a5d59)
+
+![Msg Schedule Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/68659a8f-4fd1-49e8-94d2-ea4b5e7c2349)
+
 
 
 We implement the core logic as a word-shift register with combinational logic that computes the next state for the word-shifter registers.
@@ -16,7 +18,9 @@ Here is a simplified depiction of the hash core logic datapath, with the core re
 The whole block is processed in a single clock cycle for each of the 64 cycles of the algorithm.
 
 
-![HASH Core Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/56662157-ad67-4f52-8e93-2c4611a78ad3)
+
+![HASH Core Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/2d41d80d-f956-427c-8296-bdeb15bc5c9e)
+
 
 
 Note on the combinational functions (Maj, Ch, ∑0, ∑1, σ0, σ1): The Sigma function shifters are implemented as fixed bit remaps (zero-logic), and the Maj and Ch are canonical implementations of the FIPS-180-4 description. These boolean functions can be rearranged to match the target gate library. The boolean remap saves no area for LUT-based FPGA targets, but for ASIC targets and the more limited FPGA sea of gates, the remap can hold combinational depth.
