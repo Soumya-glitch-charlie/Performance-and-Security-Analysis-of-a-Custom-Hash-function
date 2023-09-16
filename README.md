@@ -9,7 +9,7 @@ Here is a simplified diagram of implementing the message schedule datapath, with
 
 
 
-![Msg Schedule Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/68659a8f-4fd1-49e8-94d2-ea4b5e7c2349)
+![Msg Schedule Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/c4ae5375-1be1-478e-b26a-410c5d34ec4a)
 
 
 
