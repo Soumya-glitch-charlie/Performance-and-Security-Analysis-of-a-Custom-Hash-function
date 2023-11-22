@@ -14,7 +14,7 @@ Here is a simplified diagram of implementing the message schedule datapath, with
 ##
 ![Msg Schedule Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/c4ae5375-1be1-478e-b26a-410c5d34ec4a)
 <br>
-<p align="center"><i><b>Preview:</b> SHA-256 Message Schedule Circuit Diagram </i></p>
+<i><b>Preview:</b> SHA-256 Message Schedule Circuit Diagram </i>
 
 <br>
 
