@@ -9,12 +9,14 @@ Here is a simplified diagram of implementing the message schedule datapath, with
 
 
 
+<br>
 
-
+##
 ![Msg Schedule Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/c4ae5375-1be1-478e-b26a-410c5d34ec4a)
+<br>
+<p align="center"><i><b>Preview:</b> SHA-256 Message Schedule Circuit Diagram </i></p>
 
-
-
+<br>
 
 
 
@@ -23,14 +25,14 @@ Here is a simplified depiction of the hash core logic datapath, with the core re
 The whole block is processed in a single clock cycle for each of the 64 cycles of the algorithm.
 
 
+<br>
 
-
-
+##
 ![HASH Core Logic](https://github.com/Soumya-glitch-charlie/SHA-256-Encryption-Algorithm/assets/127016329/67c5088b-2e07-48d0-a92d-fdf0a2e8d3bc)
+<br>
+<p align="center"><i><b>Preview:</b>SHA-256 HASH Core Logic</i></p>
 
-
-
-
+<br>
 
 
 Note on the combinational functions (Maj, Ch, ∑0, ∑1, σ0, σ1): The Sigma function shifters are implemented as fixed bit remaps (zero-logic), and the Maj and Ch are canonical implementations of the FIPS-180-4 description. These boolean functions can be rearranged to match the target gate library. The boolean remap saves no area for LUT-based FPGA targets, but for ASIC targets and the more limited FPGA sea of gates, the remap can hold combinational depth.
