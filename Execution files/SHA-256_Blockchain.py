@@ -210,13 +210,13 @@ def security(__name__, Block, Blockchain):
 
     # Attempt to tamper with the blockchain
         print("Tampering with the blockchain...")
-        blockchain.chain[1].data = "Tampered Data 1"
+        blockchain.chain[1].data = "Tampered Data-1"
         blockchain.chain[1].hash = blockchain.chain[1].calculate_hash()
         
-        blockchain.chain[2].data = "Tampered Data 2"
+        blockchain.chain[2].data = "Tampered Data-2"
         blockchain.chain[2].hash = blockchain.chain[2].calculate_hash()
 
-        blockchain.chain[3].data = "Tampered Data 3"
+        blockchain.chain[3].data = "Tampered Data-3"
         blockchain.chain[3].hash = blockchain.chain[3].calculate_hash()
 
     # Verify blockchain validity again
