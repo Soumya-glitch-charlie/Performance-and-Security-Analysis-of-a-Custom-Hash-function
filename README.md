@@ -177,7 +177,7 @@ Hash function generation:
 
 5. Blockchain Implementation:
 <ul>
-     -  5.1	Block Class (Block),
+     -   5.1	Block Class (Block),
      -	5.2 Blockchain Class (Blockchain).
 </ul>
 
