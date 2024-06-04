@@ -49,9 +49,10 @@ Key Features of SHA-256:
 <h2>Working Principle of SHA-256</h2>
 SHA-256 processes data in fixed-size blocks of 512 bits (64 bytes). The algorithm follows these primary steps:
 
-- **Hash Generation Function:**
 
-The ‘generate_hash’ function takes a message and processes it to produce a  256-bit hash value.
+- **Hash Function Generation:**
+
+   The ‘generate_hash’ function takes a message and processes it to produce a  256-bit hash value.
 
 1.	**Padding:**
 -	Padding ensures that the message length is a multiple of 512 bits. 
