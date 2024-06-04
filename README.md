@@ -34,15 +34,15 @@ SHA-256 (Secure Hash Algorithm 256-bit) is a cryptographic hash function that be
 
 Key Features of SHA-256:
 
-1. Fixed-Length Output: SHA-256 always produces a 256-bit hash regardless of the infinite input size. This property is essential for ensuring uniformity and predictability in hash values.
+1. *Fixed-Length Output:* SHA-256 always produces a 256-bit hash regardless of the infinite input size. This property is essential for ensuring uniformity and predictability in hash values.
 
-2. Deterministic: The same input will always produce the same hash output. This determinism is crucial for verifying data integrity.
+2. *Deterministic:* The same input will always produce the same hash output. This determinism is crucial for verifying data integrity.
 
-3. Pre-Image Resistance: It is computationally infeasible to reverse-engineer the original input from its hash output. This property is vital for security, ensuring that hashed data cannot be easily deciphered.[21]
+3. *Pre-Image Resistance:* It is computationally infeasible to reverse-engineer the original input from its hash output. This property is vital for security, ensuring that hashed data cannot be easily deciphered.
 
-4. Collision Resistance: It is improbable that two different inputs will produce the same hash output. This minimizes the risk of two distinct pieces of data being treated as identical.
+4. *Collision Resistance:* It is improbable that two different inputs will produce the same hash output. This minimizes the risk of two distinct pieces of data being treated as identical.
 
-5. Avalanche Effect: A small change in the input (even a single bit) significantly alters the output hash, making the hash function sensitive to input variations.
+5. *Avalanche Effect:* A small change in the input (even a single bit) significantly alters the output hash, making the hash function sensitive to input variations.
 
 <br>
 
@@ -57,7 +57,7 @@ SHA-256 processes data in fixed-size blocks of 512 bits (64 bytes). The algorith
 1.	**Padding:**
 -	Padding ensures that the message length is a multiple of 512 bits. 
 -	This involves appending a single 1 bit, followed by enough 0 bits and finally,
--	 The message length is a 64-bit integer.[20,22]
+-	 The message length is a 64-bit integer.
   
 2.	**Parsing:**
 -	Splits the padded message into 512-bit blocks for processing.
@@ -108,11 +108,11 @@ Here is a simplified depiction of the hash core logic datapath, with the core re
 The whole block is processed in a single clock cycle for each of the 64 cycles of the algorithm.
 
 These functions perform bitwise operations required by the SHA-256 algorithm:
-- *_sigma0 and _sigma1:* Performs specific bitwise rotations and right-shift operation.
-- *_capsigma0 and _capsigma1:* Performs additional bitwise rotations and right-shift operation.
-- *_ch:* Chooses bits from user inputs (x or y based on z).
-- *_maj:* Majority function based on those inputs (x, y, and z).
-- *_rotate_right:* Rotates bits of a number to the right.
+- **_sigma0(σ0) and _sigma1(σ1):** Performs specific bitwise rotations and right-shift operation.
+- **_capsigma0(∑0) and _capsigma1(∑1):** Performs additional bitwise rotations and right-shift operation.
+- **_ch:** Chooses bits from user inputs (x or y based on z).
+- **_maj:** Majority function based on those inputs (x, y, and z).
+- **_rotate_right:** Rotates bits of a number to the right.
 
 <br>
 
