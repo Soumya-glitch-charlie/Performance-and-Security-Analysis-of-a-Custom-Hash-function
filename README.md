@@ -307,18 +307,21 @@ This article introduces a custom hash function tailored for blockchain networks,
 - Custom Hash Function: Suitable for applications where security is not the primary concern, such as checksums.
 - SHA-256: Used in security-sensitive applications like digital signatures, blockchain, and data integrity verification.
 
+<br>
 
 ## Conclusion
 The custom hash function is ideal for applications prioritizing speed and lower memory usage over high security, such as checksums, non-critical data integrity checks, and certain blockchain applications. On the other hand, SHA-256 remains the preferred choice for applications demanding stringent security. This project demonstrated that custom hash functions can be viable alternatives to standardized algorithms like SHA-256 for specific use cases, providing a useful option where moderate security suffices. By balancing performance metrics, the custom hash function contributes to secure and efficient digital communication and data integrity solutions. Our prospect is to implement the custom hash function in a hardware platform for blockchain-based IOT networks where less security is required.
 
+<br>
+
 ## Contributors
 I. [Rituraj Paul](https://www.github.com/laughing-nerd) 
 <br>
-II.[Soumyadeep Das](https://www.github.com/Soumya-glitch-charlie)
+II. [Soumyadeep Das](https://www.github.com/Soumya-glitch-charlie)
 <br>
-III.[Sayantan Barman Roy](https://www.github.com/Sayantan63)
+III. [Sayantan Barman Roy](https://www.github.com/Sayantan63)
 <br>
-IV.[Soumyarup Basu](https://www.github.com/SoumyarupBasu)
+IV. [Soumyarup Basu](https://www.github.com/SoumyarupBasu)
 <br>
 
 <br>
