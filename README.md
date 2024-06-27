@@ -325,7 +325,7 @@ IV. [Soumyarup Basu](https://www.github.com/SoumyarupBasu)
 <br>
 
 <br>
-<b><i>Feel free to contribute to this project by submitting issues, feature requests, or pull requests. We welcome any feedback or improvements to make this real estate price prediction model even more accurate and valuable.<i><b>
+<b><i>Feel free to contribute to this project by submitting issues, feature requests, or pull requests. We welcome feedback or improvements to make this performance analysis model more accurate and valuable.<i><b>
 
 <br/>
 <br/>
